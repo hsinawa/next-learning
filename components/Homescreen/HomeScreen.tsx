@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/common.css";
 import Image from "next/image";
+import { SocialLinks } from "@/constants";
+
 const HomeScreen = () => {
   return (
     <main>
@@ -28,7 +30,8 @@ const HomeScreen = () => {
                 Hire Me
               </a>
               <a
-                href="#"
+                href={`${SocialLinks[2].href}`}
+                target="_blank"
                 className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md ml-4 hover:bg-gray-300 hover:text-gray-900 transition-colors duration-300"
               >
                 My Resume
