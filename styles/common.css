@@ -1,0 +1,20 @@
+#width-and-center-body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+#container {
+    display: grid;
+
+    grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+       display: block;
+    }
+    
+}
