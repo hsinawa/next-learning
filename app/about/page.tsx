@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/common.css";
 import Image from "next/image";
+import MySkills from "@/components/Skills/MySkills";
 
 const AboutPage = () => {
   return (
@@ -34,6 +35,9 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      <br/>
+      <MySkills/>
     </main>
   );
 };

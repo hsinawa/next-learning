@@ -88,9 +88,9 @@ export const SkillsList = [
   },
   {
     id: 8,
-    name: "PostgreSQL",
-    image: "/images/postgress.png",
-    category: "Database",
+    name: "JavaScript",
+    image: "/images/javascript.png",
+    category: "Backend",
   },
   {
     id: 9,
