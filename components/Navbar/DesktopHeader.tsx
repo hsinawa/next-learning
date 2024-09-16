@@ -36,7 +36,8 @@ const DesktopHeader = () => {
                   className={`transition-opacity duration-300 ${isActive ? 'opacity-60' : 'opacity-100'}`}
                 />
                 <a
-                  className={`font-medium ${isActive ? 'text-gray-400' : 'text-gray-800'} hover:text-gray-400 focus:outline-none focus:text-gray-400`}
+                 className={`font-medium ${isActive ? 'text-gray-500' : 'text-gray-800'} hover:text-gray-400 focus:outline-none focus:text-gray-400`}
+
                   href={link.href}
                 >
                   {link.name}

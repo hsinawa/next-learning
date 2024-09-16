@@ -5,7 +5,7 @@ import { SocialLinks } from "@/constants";
 
 const HomeScreen = () => {
   return (
-    <main>
+    <main id="width-and-center-body">
       <section className="block md:grid md:grid-cols-2">
         <div className="flex justify-center items-center mt-[15%] md:mt-[5%]">
           <Image

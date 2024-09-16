@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Awanish Mishra",
+  title: "Awanish Mishra Portfolio",
   description: "Fullstack Developer",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
      
       <body className={inter.className}>
       <Navbar/>

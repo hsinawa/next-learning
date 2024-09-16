@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../styles/common.css'
 
-const page = () => {
+const AboutPage = () => {
   return (
-    <div>page</div>
+    <main id="width-and-center-body">AboutPage</main>
   )
 }
 
-export default page
+export default AboutPage

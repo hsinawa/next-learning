@@ -1,11 +1,14 @@
 import HomeScreen from '@/components/Homescreen/HomeScreen'
 import React from 'react'
 import '../../styles/common.css'
+import AboutPage from '../about/page'
+import MarqueeComponent from '@/components/Marquee/Marquee'
 
 const Encapsulation = () => {
   return (
-    <div id="width-and-center-body" >
+    <div  >
         <HomeScreen/>
+        <MarqueeComponent/>
     </div>
   )
 }
