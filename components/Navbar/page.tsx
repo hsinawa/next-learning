@@ -4,7 +4,7 @@ import DesktopHeader from "./DesktopHeader";
 import MobileNavBar from "./MobileNavbar";
 
 const Navbar = () => {
-  const [isDesktop, setIsDesktop] = useState(false);
+  const [isDesktop, setIsDesktop] = useState<boolean | null>(null); 
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,6 +19,12 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  if (isDesktop === null) {
+  
+    //return window.innerWidth > 668? <DesktopHeader /> : <MobileNavBar />;
+    return null;
+  }
 
   return (
     <header>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { NavbarLinks } from "@/constants";
 import '../../styles/Navbar.css'
 import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 const MobileNavBar = () => {
 
@@ -24,12 +25,12 @@ const MobileNavBar = () => {
                   height={20}
                   className={`transition-opacity duration-300 ${isActive ? 'opacity-60' : 'opacity-100'}`}
                 />
-                <a
+                <Link
                   className={`font-medium ${isActive ? 'text-gray-400' : 'text-gray-800'} hover:text-gray-400 focus:outline-none focus:text-gray-400`}
                   href={link.href}
                 >
                   {link.name}
-                </a>
+                </Link>
               </div>
             );
           })}
