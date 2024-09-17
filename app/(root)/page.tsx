@@ -11,6 +11,7 @@ const Encapsulation = () => {
         <HomeScreen/>
         <MarqueeComponent/>
         <AboutPage/>
+
         
         <br/><br/><br/>
     </div>

@@ -20,7 +20,7 @@ const HomeScreen = () => {
           <div className="text-center sm:text-left">
             <h1 className="text-4xl font-bold text-gray-800">Awanish Mishra</h1>
             <p className="text-gray-600 text-lg mt-2">
-              I'm a Full Stack Developer and an Influencer
+              I'm a Full Stack Developer 
             </p>
             <div className="mt-4">
               <a

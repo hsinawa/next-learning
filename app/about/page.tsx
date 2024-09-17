@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/common.css";
 import Image from "next/image";
 import MySkills from "@/components/Skills/MySkills";
+import WorkExperience from "@/components/WorkEx/WorkExperience";
 
 const AboutPage = () => {
   return (
@@ -38,6 +39,8 @@ const AboutPage = () => {
 
       <br/>
       <MySkills/>
+      <br/>
+      <WorkExperience/>
     </main>
   );
 };
