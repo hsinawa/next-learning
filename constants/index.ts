@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const NavbarLinks = [
   {
     id: 1,
@@ -154,7 +156,7 @@ export const WorkExperienceList = [
       "Developed Django admin modules to track user heatmaps with 5 key metrics",
       "Redesigned 7 products using Tailwind CSS, Preline, and custom components"
     ],
-    techonolgies:[ "Django", "Python", "Tailwind CSS",  "Google Cloud Platform", "Meta Cloud API", "NDB", "Google App Engine"]
+    techonolgies:[ "Django", "Python", "Tailwind CSS",  "Google Cloud Platform", "Meta Cloud API", "NDB", "Google App Engine","Cloud Run"]
   },
   {
     id: 2,
@@ -188,5 +190,25 @@ export const WorkExperienceList = [
       
     ],
     techonolgies:[ "MERN Stack", "AWS", "React i18n",  "Sharding", "Firebase","Postman"]
+  }
+]
+
+
+export const ProjectsList = [
+  {
+    id:1,
+    name: "Concept Classes",
+    description: "A comprehensive coaching app which has 1800+ students across Delhi-NCR",
+    isLive: true,
+    image: "/images/conceptclasses.jpg",
+    technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Stripe",""],
+    link: "https://conceptclasses.com",
+    features:[
+      "Built a student portal with 12 features including homework, tests, and fee payments",
+      "Developed a teacher portal with 15 features like lecture uploads, results, and bulk messaging",
+      "Integrated Razorpay API for seamless fee payments and 30-day payment reminders",
+      "Created a performance chart using D3.js based on student test scores"
+    ]
+    
   }
 ]

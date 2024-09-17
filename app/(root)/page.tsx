@@ -3,6 +3,7 @@ import React from 'react'
 import '../../styles/common.css'
 import AboutPage from '../about/page'
 import MarqueeComponent from '@/components/Marquee/Marquee'
+import ProjectPage from '../projects/page'
 
 
 const Encapsulation = () => {
@@ -11,7 +12,7 @@ const Encapsulation = () => {
         <HomeScreen/>
         <MarqueeComponent/>
         <AboutPage/>
-
+        <ProjectPage/>
         
         <br/><br/><br/>
     </div>

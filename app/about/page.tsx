@@ -41,6 +41,7 @@ const AboutPage = () => {
       <MySkills/>
       <br/>
       <WorkExperience/>
+      <br/>
     </main>
   );
 };
