@@ -202,7 +202,7 @@ export const ProjectsList = [
     isLive: true,
     image: "/images/conceptclasses.jpg",
     technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Javascript","Razorpay","Datatables","D3.js"],
-    link: "https://conceptclasses.com",
+    link: "https://www.conceptclassess.com/",
     features:[
       "Built a student portal with 12 features including homework, tests, and fee payments",
       "Developed a teacher portal with 15 features like lecture uploads, results, and bulk messaging",

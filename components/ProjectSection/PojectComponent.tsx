@@ -69,9 +69,6 @@ const ProjectBody = ({
     isLive,
     link,
   }: Project) => {
-
-   
-  
     return (
       <main>
         <header>
