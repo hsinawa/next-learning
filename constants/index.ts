@@ -201,13 +201,24 @@ export const ProjectsList = [
     description: "A comprehensive coaching app which has 1800+ students across Delhi-NCR",
     isLive: true,
     image: "/images/conceptclasses.jpg",
-    technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Stripe",""],
+    technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Javascript","Razorpay","Datatables","D3.js"],
     link: "https://conceptclasses.com",
     features:[
       "Built a student portal with 12 features including homework, tests, and fee payments",
       "Developed a teacher portal with 15 features like lecture uploads, results, and bulk messaging",
       "Integrated Razorpay API for seamless fee payments and 30-day payment reminders",
       "Created a performance chart using D3.js based on student test scores"
+    ],
+    imagesArray:[
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.14.48%E2%80%AFAM.png?alt=media&token=db8e8809-975c-42af-859c-ec9f28086172",
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.15.09%E2%80%AFAM.png?alt=media&token=1bdf67ff-e1dc-46f3-a827-2c63a3d3fc5e",
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.15.43%E2%80%AFAM.png?alt=media&token=660e081e-a706-4f09-ab60-8693d6af9d42",
+        "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.44.10%E2%80%AFAM.png?alt=media&token=47a9f93c-a721-4a51-9b8c-8a8b87b50dc7",
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.47.28%E2%80%AFAM.png?alt=media&token=1b773ccc-cf1b-47dd-a140-51e0e23b47ad",
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.58.34%E2%80%AFAM.png?alt=media&token=d17da824-b74e-4aa1-8ba7-71deb86e8932"
+
+    
+
     ]
     
   }
