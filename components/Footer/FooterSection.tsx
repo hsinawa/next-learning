@@ -50,15 +50,17 @@ const FooterSection: React.FC = () => {
           </div>
          
           <nav className="flex space-x-6 text-sm ">
-            <a href="projects" className="hover:underline hover:text-gray-400">
-              Projects
-            </a>
-            <a href="about" className="hover:underline hover:text-gray-400">
+          <Link href="about" className="hover:underline hover:text-gray-400">
               About
-            </a>
-            <a href="contact" className="hover:underline hover:text-gray-400">
+            </Link>
+
+            <Link href="projects" className="hover:underline hover:text-gray-400">
+              Projects
+            </Link>
+           
+            <Link href="contact" className="hover:underline hover:text-gray-400">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
        

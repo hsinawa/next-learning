@@ -366,3 +366,6 @@ export const AccordianData = [
     content:"I am currently working as an Associate Software Engineer at Avasant, a Software Development Intern at Thales, and a Fullstack Developer Intern at Infuzex Ventures, gaining experience in various domains."
   }
 ]
+
+
+export const DevLink = 'http://localhost:8000/api/'
