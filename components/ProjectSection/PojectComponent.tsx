@@ -35,7 +35,7 @@ const ProjectCard = ({ index, image, name, description }: Project) => {
             alt={name}
             width={130}
             height={100}
-            className="object-fit mb-0 sm:mb-0"
+            className="object-fit mb-0  sm:mb-0"
           />
         </div>
 
@@ -73,7 +73,7 @@ const ProjectBody = ({
       <main>
         <header>
           <DialogTitle  style={{ cursor: isLive ? 'pointer' : 'default' }}>
-            {name} {isLive ? <a href={`${link}`} target="_blank" className="text-green-900 text-sm ml-1">(Live)</a> : <a className="text-red-900 text-sm ml-1">(Demo)</a>}
+            {name} {isLive ? <a href={`${link}`} target="_blank" className="text-green-900 text-sm ml-1">(Live)</a> : <a  href={`${link}`} target="_blank"  className="text-red-900 text-sm ml-1">(Demo)</a>}
           </DialogTitle>
           <DialogDescription>{description}</DialogDescription>
         </header>
@@ -141,7 +141,7 @@ const ProjectComponent = ({
   link
 }: Project) => {
   return (
-    <main>
+    <main className="mt-10" >
       <Dialog>
         <DialogTrigger className="w-full">
           <ProjectCard

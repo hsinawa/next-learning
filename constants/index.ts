@@ -201,7 +201,7 @@ export const ProjectsList = [
     description: "A comprehensive coaching app which has 1800+ students across Delhi-NCR",
     isLive: true,
     image: "/images/conceptclasses.jpg",
-    technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Javascript","Razorpay","Datatables","D3.js"],
+    technologies: ["Next", "Node", "MongoDB", "AWS" , "Firebase", "Postman","Javascript","Razorpay","Datatables","D3.js"],
     link: "https://www.conceptclassess.com/",
     features:[
       "Built a student portal with 12 features including homework, tests, and fee payments",
@@ -216,10 +216,58 @@ export const ProjectsList = [
         "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.44.10%E2%80%AFAM.png?alt=media&token=47a9f93c-a721-4a51-9b8c-8a8b87b50dc7",
       "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.47.28%E2%80%AFAM.png?alt=media&token=1b773ccc-cf1b-47dd-a140-51e0e23b47ad",
       "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/concept_classes%2FScreenshot%202024-09-22%20at%201.58.34%E2%80%AFAM.png?alt=media&token=d17da824-b74e-4aa1-8ba7-71deb86e8932"
+    ]
+  },
 
-    
+  {
+    id:2,
+    name: "WellBe Labs",
+    description: "Created a healthcare and lifestyle application that has 1000+ Bookings",
+    isLive: false,
+    image: "/images/well_be_logo.jpeg",
+    technologies: ["React", "Node", "MongoDB", "AWS" , "Firebase","Typescript","CI/CD","Twilio","Meta Cloud API", "Django","EC2"],
+    link: "https://thyroproject.onrender.com/",
+    features : [
+     
+      "Developed a scalable SaaS   for blood test bookings, supporting over 400 tests.",
+      
+      "Architected the application with 7 microservices.",
+      "Implemented hash-based sharding for the test database.",
+      "Achieved a 20% reduction in document fetch times, enhancing user performance.",
+      "Implemented 14 key features including: Test Booking, Blog Writing, Profit Monitoring, Employee Portal, Payments.",
+      "Integrated Twilio API for SMS notifications and reminders.",
+    ]
+    ,
+    imagesArray:[
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.35.56%E2%80%AFPM.png?alt=media&token=1c4b2f5b-7379-4971-bfe6-58a13a2fb9e7",
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.36.07%E2%80%AFPM.png?alt=media&token=485f66c4-f027-4e54-a36b-67d6c36b5822",
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.36.16%E2%80%AFPM.png?alt=media&token=5bd917b3-f887-4a42-aeb3-fa84cdcfe455",
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.36.28%E2%80%AFPM.png?alt=media&token=8a68e3a4-8fae-4313-be90-7814a5b28b51",
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.36.49%E2%80%AFPM.png?alt=media&token=55a7da8c-7f1a-435c-9f53-ffc200a07338",
+     "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/well_be%2FScreenshot%202024-09-22%20at%206.37.40%E2%80%AFPM.png?alt=media&token=7974bb83-7401-4e10-a56b-9a4eef37b90b"
+    ]
+  },
+
+  {
+    id:3,
+    name: "Checkup Health",
+    description: "Made a platform for people to get accessible and affordable healthcare for Tamluk District",
+    isLive: true,
+    image: "/images/checkup.png",
+    technologies: [ "React", "Node", "MySQL","AWS","Firebase","DB Aggregation","Sharding","React i18n","Twilio","Figma"],
+    link: "https://play.google.com/store/apps/details?id=com.checkuphealth.in",
+    features : [
+     "Designed and implemented a highly scalable MVC architecture with Geo sharding, enabling the platform to handle 50,000+ bookings efficiently and consistently.",
+"Enabled bilingual site with React i18n, enhancing UX by offering seamless access in 2 languages.",
+"Outcome: Went live and later also published on Playstore. Received more than 15,000 bookings within 1 week."
 
     ]
-    
-  }
+    ,
+    imagesArray:[
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/Checkup%2FScreenshot%202024-09-22%20at%207.03.16%E2%80%AFPM.png?alt=media&token=c639b439-ba59-4e1e-abdd-e7cd8fd74aa4",
+      "https://firebasestorage.googleapis.com/v0/b/awanish-projects-7640c.appspot.com/o/Checkup%2FScreenshot%202024-09-22%20at%207.03.09%E2%80%AFPM.png?alt=media&token=47f665cc-42dc-4345-a719-9d77e980cc26"
+    ]
+  },
+
+
 ]
