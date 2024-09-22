@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/page";
+import FooterSection from "@/components/Footer/FooterSection";
+import FooterAccordian from "@/components/Footer/FooterAccordian";
+import { TooltipProvider } from '@/components/ui/tooltip';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +24,13 @@ export default function RootLayout({
      
       <body className={inter.className}>
       <Navbar/>
-      {children}</body>
+      {children}
+      <FooterAccordian/>
+      <TooltipProvider>
+      <FooterSection/>
+      </TooltipProvider>
+      </body>
+
     </html>
   );
 }

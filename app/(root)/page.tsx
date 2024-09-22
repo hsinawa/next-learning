@@ -6,6 +6,7 @@ import MarqueeComponent from '@/components/Marquee/Marquee'
 import ProjectPage from '../projects/page'
 
 
+
 const Encapsulation = () => {
   return (
     <div  >

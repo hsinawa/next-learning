@@ -25,7 +25,7 @@ const MySkills = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.2 }}
         className="text-center sm:text-left"
       >
         <div className="flex flex-col sm:flex-row justify-between items-center mt-10">
@@ -88,7 +88,7 @@ const SkillCardWithAnimation = ({ skill, index, visibleCount, setVisibleCount }:
       animate={visibleCount > index ? "show" : "hidden"}
       variants={{
         hidden: { opacity: 0, y: 20 },
-        show: { opacity: 1, y: 0, transition: { duration: 0.2 } },
+        show: { opacity: 1, y: 0, transition: { duration: 0.1 } },
       }}
     >
       <SkillsCard name={skill?.name || ''} image={skill?.image || ''} />
