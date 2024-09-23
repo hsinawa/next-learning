@@ -1,12 +1,14 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import React from "react";
+import { Suspense } from 'react'
+
 import "../../styles/common.css";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ContactForm from "@/components/contact/contactForm";
 
-const ContactPage = () => {
+const ContactPage2 = () => {
   const searchParams = useSearchParams();
   const type = searchParams.get("type"); // Get the type parameter
 
@@ -24,6 +26,7 @@ const ContactPage = () => {
 
   return (
     <main id="width-and-center-body">
+        <Suspense>
       <div className="flex justify-center mb-[20%] md:mb-[40%] lg:mb-[10%]">
         <Tabs
           defaultValue={type || "Contact-Me"}
@@ -67,8 +70,17 @@ const ContactPage = () => {
           </TabsContent>
         </Tabs>
       </div>
+      </Suspense>
     </main>
   );
 };
+
+const ContactPage = () =>{
+    return(
+        <Suspense>
+            <ContactPage2 />
+        </Suspense>
+    )
+}
 
 export default ContactPage;
