@@ -368,4 +368,5 @@ export const AccordianData = [
 ]
 
 
-export const DevLink = 'http://localhost:8000/api/'
+// export const DevLink = 'http://localhost:8000/api/'
+export const DevLink = 'https://backend-804594827915.asia-south1.run.app/api/'
