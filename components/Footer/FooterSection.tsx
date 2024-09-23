@@ -32,7 +32,7 @@ const socialLinks = [
     Icon: IoIosCall,
   },
   {
-    href: 'mailto:awanishmishraenterprise@gmail.com',
+    href: 'mailto:awanishsampleprojects@gmail.com',
     label: 'Email',
     Icon: AiOutlineMail,
   },

@@ -24,7 +24,7 @@ const HomeScreen = () => {
             </p>
             <div className="mt-4">
               <a
-                href="#"
+                href="/contact"
                 className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-700 hover:text-white transition-colors duration-300"
               >
                 Hire Me
